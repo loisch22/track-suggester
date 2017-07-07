@@ -12,13 +12,105 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-
-    <h1>Discover the Right Track for You at <em>Epicodus</em></h1>
-    <p>Complete the survey below to see if Epicodus is right for you <strong>AND</strong> to see what tracks fit your interests.</p>
-
-    <div class="container">
-       
+    <div class="jumbotron">
+      <h1>Discover the Right Track for You at <em>Epicodus</em></h1>
     </div>
 
+    <div class="container">
+      <h2>Complete the survey below to see if Epicodus is right for you <strong>AND</strong> to see what tracks fit your interests.</h2>
+
+      <div id="epicodusQs">
+        <p>Do you like to work with others?</p>
+        <div class="radio">
+          <label>
+            <input id="epicodusQ1" type="radio" name="yes" value="1">
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input id="epicodusQ1" type="radio" name="no" value="0">
+            No
+          </label>
+        </div>
+
+        <p>Are you a hands on learner?</p>
+        <div class="radio">
+          <label>
+            <input id="epidocusQ2" type="radio" name="yes" value="1">
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input id="epicodusQ2" type="radio" name="no" value="0">
+            No
+          </label>
+        </div>
+
+        <p>Can you commit to 27 weeks, 8:00am - 5:00pm Monday-Friday?</p>
+        <div class="radio">
+          <label>
+            <input id="epidocusQ3" type="radio" name="yes" value="1">
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input id="epicodusQ3" type="radio" name="no" value="0">
+            No
+          </label>
+        </div>
+
+        <p>Can you commit to 15 weeks, 6:00pm - 9:00pm Monday-Friday?</p>
+        <div class="radio">
+          <label>
+            <input id="epidocusQ4" type="radio" name="yes" value="1">
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input id="epicodusQ4" type="radio" name="no" value="0">
+            No
+          </label>
+        </div>
+
+        <p>Do you want to learn how to code?</p>
+        <div class="radio">
+          <label>
+            <input id="epidocusQ5" type="radio" name="yes" value="1">
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input id="epicodusQ5" type="radio" name="no" value="0">
+            No
+          </label>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="well">
+        <h3>If you would like your results sent to you, please fill out the form below:</h3>
+        <form id="about">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+        </form>
+        <form id="contactInfo">
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input id="email" class="form-control" type="text">
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
