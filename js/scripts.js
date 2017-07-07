@@ -51,8 +51,39 @@ $(document).ready(function(){
 
     if (epiResult === 1) {
       $(".epicodusY").show();
+      $("#contact").show();
     } else {
       $(".epicodusN").show();
+    }
+
+    if (rubyRResult === 1) {
+      $(".rubyRailsShow").show();
+    } else {
+      $(".rubyRailsShow").hide();
+    }
+
+    if (phpDResult === 1) {
+      $(".phpDrupalShow").show();
+    } else {
+      $(".phpDrupalShow").hide();
+    }
+
+    if (javaAResult === 1) {
+      $(".javaAndShow").show();
+    } else {
+      $(".javaAndShow").hide();
+    }
+
+    if (cssDResult === 1) {
+      $(".cssDesignShow").show();
+    } else {
+      $(".cssDesignShow").hide();
+    }
+
+    if (cNResult === 1) {
+      $(".cNetShow").show();
+    } else {
+      $(".cNetShow").hide();
     }
   });
 });

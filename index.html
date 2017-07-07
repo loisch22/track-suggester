@@ -20,174 +20,182 @@
       <h2>Complete the survey below to see if Epicodus is right for you <strong>AND</strong> to see what tracks fit your interests.</h2>
 
       <div class="well">
-        <div id="epicodusQs">
-          <p>Select a location:</p>
+        <div id="questions">
+          <label>Select a location:</label>
           <select class="form-control" id="location">
             <option>Seattle</option>
             <option>Portland</option>
           </select><br>
-          <label for="epicodusQ1">Do you like to work with others?</label>
+          <label>Do you like to work with others?</label>
           <select class="form-control" id="epicodusQ">
             <option></option>
             <option>Yes</option>
             <option>No</option>
           </select><br>
 
-          <p>Do you want to learn how to build applications?</p>
+          <label>Do you want to learn how to build applications?</label>
           <select class="form-control" id="rubyRailsQ">
             <option></option>
             <option>Yes</option>
             <option>No</option>
           </select><br>
 
-          <p>Do you want manage content for multiple web sites?</p>
+          <label>Do you want manage content for multiple web sites?</label>
           <select class="form-control" id="phpDrupalQ">
             <option></option>
             <option>Yes</option>
             <option>No</option>
           </select>
 
-          <p>Do you want to learn how to work with Android?</p>
+          <label>Do you want to learn how to work with Android?</label>
           <select class="form-control" id="javaAndQ">
             <option></option>
             <option>Yes</option>
             <option>No</option>
           </select>
 
-          <p>Are you interested in learning how to design web sites and applications?</p>
+          <label>Are you interested in learning how to design web sites and applications?</label>
           <select class="form-control" id="cssDesignQ">
+            <option></option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+
+          <label>Do you want to work with Microsoft?</label>
+          <select class="form-control" id="cNetQ">
             <option></option>
             <option>Yes</option>
             <option>No</option>
           </select>
         </div>
       </div>
-
-      <button id="submit">Submit</button>
+      <button id="submit" class="btn btn-primary">Submit</button>
     </div>
 
-    <div class="results">
-      <div class="epicodusY">
-        <h3>Thank you for completing the survey! Looks like Epicodus <span class="locationInput"> </span> is the right place for you.</h3>
-      </div>
-      <div class="epicodusN">
-        <h3>Thank you for completing the survey! Looks like Epicodus is not the best match   for you. Check out some other <a href="https://www.switchup.org/research/best-coding-bootcamps">bootcamps</a> that may be a better fit.</h3>
-      </div>
+      <div class="results">
+        <div class="epicodusY">
+          <h3>Thank you for completing the survey! Looks like Epicodus <span class="locationInput"> </span> is the right place for you.</h3>
+        </div>
+        <div class="epicodusN">
+          <h3>Thank you for completing the survey! Looks like Epicodus is not the best match   for you. Check out some other <a href="https://www.switchup.org/research/best-coding-bootcamps">bootcamps</a> that may be a better fit.</h3>
+        </div>
 
-      <div class="container">
-        <div class="rubyRailsShow">
-          <div class="row">
-            <div class="col-md-6">
-              <h4>You were matched with <strong>Ruby</strong></h4>
-              <a href="https://www.epicodus.com/ruby/">
-                <img src="img/ruby.jpg" alt="icon of Ruby from Epicodus">
-                <p>Ruby</p>
-              </a>
+        <div class="container">
+          <div class="rubyRailsShow">
+            <div class="row">
+              <div class="col-md-6">
+                <h4>You were matched with <strong>Ruby</strong></h4>
+                <a href="https://www.epicodus.com/ruby/">
+                  <img src="img/ruby.jpg" alt="icon of Ruby from Epicodus">
+                  <p>Ruby</p>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <h4>You were matched with <strong>Rails</strong></h4>
+                <a href="https://www.epicodus.com/rails/">
+                  <img src="img/rails.jpg" alt="icon of Ruby from Epicodus">
+                  <p>Rails</p>
+                </a>
+              </div>
             </div>
-            <div class="col-md-6">
-              <h4>You were matched with <strong>Rails</strong></h4>
-              <a href="https://www.epicodus.com/rails/">
-                <img src="img/rails.jpg" alt="icon of Ruby from Epicodus">
-                <p>Rails</p>
-              </a>
+          </div>
+
+          <div class="phpDrupalShow">
+            <div class="row">
+              <div class="col-md-6">
+                <h4>You were matched with <strong>PHP</strong></h4>
+                <a href="https://www.epicodus.com/ruby/">
+                  <img src="img/php.jpg" alt="icon of PHP">
+                  <p>PHP</p>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <h4>You were matched with <strong>Drupal</strong></h4>
+                <a href="https://www.drupal.com/product/web-content-management">
+                  <img src="img/drupal.jpg" alt="icon of Drupal">
+                  <p>Drupal</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="javaAndShow">
+            <div class="row">
+              <div class="col-md-6">
+                <h4>You were matched with <strong>Java</strong></h4>
+                <a href="https://www.epicodus.com/java/">
+                  <img src="img/java.jpg" alt="icon of Java from Epicodus">
+                  <p>Java</p>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <h4>You were matched with <strong>Android</strong></h4>
+                <a href="https://www.epicodus.com/android/">
+                  <img src="img/android.jpg" alt="icon of Android from Epicodus">
+                  <p>Android</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="cssDesignShow">
+            <div class="row">
+              <div class="col-md-6">
+                <h4>You were matched with <strong>CSS</strong></h4>
+                <a href="https://www.epicodus.com/css/">
+                  <img src="img/css.jpg" alt="icon of CSS from Epicodus">
+                  <p>CSS</p>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <h4>You were matched with <strong>Design</strong></h4>
+                <a href="https://www.drupal.com/product/web-content-management">
+                  <img src="img/design.jpg" alt="icon of Design from Epicodus">
+                  <p>Design</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="cNetShow">
+            <div class="row">
+              <div class="col-md-6">
+                <h4>You were matched with <strong>C#</strong></h4>
+                <a href="https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework">
+                  <img src="img/c.jpg" alt="icon of C#">
+                  <p>C#</p>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <h4>You were matched with <strong>.Net</strong></h4>
+                <a href="">
+                  <img src="img/net.jpg" alt="icon of .Net">
+                  <p>.Net</p>
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="phpDrupalShow">
-          <div class="row">
-            <div class="col-md-6">
-              <h4>You were matched with <strong>PHP</strong></h4>
-              <a href="https://www.epicodus.com/ruby/">
-                <img src="img/php.jpg" alt="icon of PHP">
-                <p>PHP</p>
-              </a>
-            </div>
-            <div class="col-md-6">
-              <h4>You were matched with <strong>Drupal</strong></h4>
-              <a href="https://www.drupal.com/product/web-content-management">
-                <img src="img/drupal.jpg" alt="icon of Drupal">
-                <p>Drupal</p>
-              </a>
-            </div>
+        <div id="contact" class="container">
+          <div class="well well-primary">
+            <h3>If you would like your results sent to you, please fill out the form below:</h3>
+            <form id="about">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input id="name" class="form-control" type="text">
+              </div>
+            </form>
+            <form>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input id="email" class="form-control" type="text">
+              </div>
+              <button id="send" class="btn btn-default">Send</button>
+            </form>
           </div>
         </div>
 
-        <div class="javaAndShow">
-          <div class="row">
-            <div class="col-md-6">
-              <h4>You were matched with <strong>Java</strong></h4>
-              <a href="https://www.epicodus.com/java/">
-                <img src="img/java.jpg" alt="icon of Java from Epicodus">
-                <p>Java</p>
-              </a>
-            </div>
-            <div class="col-md-6">
-              <h4>You were matched with <strong>Android</strong></h4>
-              <a href="https://www.epicodus.com/android/">
-                <img src="img/android.jpg" alt="icon of Android from Epicodus">
-                <p>Android</p>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="cssDesignShow">
-          <div class="row">
-            <div class="col-md-6">
-              <h4>You were matched with <strong>CSS</strong></h4>
-              <a href="https://www.epicodus.com/css/">
-                <img src="img/css.jpg" alt="icon of CSS from Epicodus">
-                <p>CSS</p>
-              </a>
-            </div>
-            <div class="col-md-6">
-              <h4>You were matched with <strong>Design</strong></h4>
-              <a href="https://www.drupal.com/product/web-content-management">
-                <img src="img/design.jpg" alt="icon of Design from Epicodus">
-                <p>Design</p>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="cNetShow">
-          <div class="row">
-            <div class="col-md-6">
-              <h4>You were matched with <strong>C#</strong></h4>
-              <a href="https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework">
-                <img src="img/c.jpg" alt="icon of C#">
-                <p>C#</p>
-              </a>
-            </div>
-            <div class="col-md-6">
-              <h4>You were matched with <strong>.Net</strong></h4>
-              <a href="">
-                <img src="img/net.jpg" alt="icon of .Net">
-                <p>.Net</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="contact" class="container">
-        <div class="well well-primary">
-          <h3>If you would like your results sent to you, please fill out the form below:</h3>
-          <form id="about">
-            <div class="form-group">
-              <label for="name">Name:</label>
-              <input id="name" class="form-control" type="text">
-            </div>
-          </form>
-          <form>
-            <div class="form-group">
-              <label for="email">Email:</label>
-              <input id="email" class="form-control" type="text">
-            </div>
-          </form>
-        </div>
-      </div>
 
     </div>
   </body>

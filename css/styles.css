@@ -8,3 +8,34 @@ img {
 .epicodusY, .epicodusN, .rubyRailsShow, .phpDrupalShow, .javaAndShow, .cssDesignShow, .cNetShow, #contact  {
   display: none;
 }
+h1 {
+  text-align: center;
+  letter-spacing: 3px;
+}
+.epicodusY, .epicodusN {
+  margin: 40px;
+  text-align: center;
+}
+#questions {
+  font-size: 16px;
+}
+.col-md-6 {
+  text-align: center;
+}
+.results {
+  background-color: #D6EAF8;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.results a:link, a:visited {
+  font-size: 20px;
+  letter-spacing: 3px;
+
+}
+.results img {
+  margin: 15px;
+}
+#submit{
+  float: right;
+}
